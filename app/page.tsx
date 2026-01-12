@@ -25,6 +25,8 @@ export default function LandingPage() {
 
   return (
     <div style={containerStyle}>
+      <img src="/logo.png" alt="Budget Planner" style={{ width: 80, marginBottom: 20 }} />
+
       <h1 style={titleStyle}>Budget Planner</h1>
       <p style={subtitleStyle}>
         Track your spending and take control of your money
